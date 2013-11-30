@@ -5,6 +5,7 @@ gem 'rails', '4.0.1'
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 group :development, :test do
@@ -12,6 +13,7 @@ group :development, :test do
 end
 
 gem 'devise'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
